@@ -9,7 +9,7 @@ contract SimpleStorage {
     string favoriteNumberInText = "eighty-eight"; //string = array of bytes
     int256 favoriteInt = -88;
     address myAddress = 0x0d8B53edAeae78620c676bD403c2be866F854181 ;
-    bytes favoriteBytes32 = "cat";
+    bytes favosriteBytes32 = "cat";
     */
 
     uint256 myFavoriteNumber;
