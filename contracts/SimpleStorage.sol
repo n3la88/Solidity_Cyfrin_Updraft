@@ -52,5 +52,11 @@ contract SimpleStorage {
     function retrieve() public view returns (uint256){
         return myFavoriteNumber;
     }
+
+
 }
+
+contract SimpleStorage1{}
+contract SimpleStorage2{}
+contract SimpleStorage3{}
 
