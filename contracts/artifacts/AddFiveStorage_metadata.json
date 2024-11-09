@@ -100,10 +100,23 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "sayHello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_favoriteNumber",
+						"name": "_newNumber",
 						"type": "uint256"
 					}
 				],
@@ -126,7 +139,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SimpleStorage.sol": "SimpleStorage"
+			"contracts/AddFiveStorage.sol": "AddFiveStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -140,6 +153,14 @@
 		"remappings": []
 	},
 	"sources": {
+		"contracts/AddFiveStorage.sol": {
+			"keccak256": "0xe9bf5fa06e8618e429a86d79f63c412464ec54c46fdb33c531adc32c1dc07558",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cd9c5e19417cb33ed31eed2836e788726a84940e02f1b87e53ffae266b545dac",
+				"dweb:/ipfs/QmS5kEabSqob4joSMACaiv7zLhZf5fqv3EeKahEFZtRkYs"
+			]
+		},
 		"contracts/SimpleStorage.sol": {
 			"keccak256": "0x5747f2ff05bbeaca27235d6fae5d9ff9d339df73b5f07e5ee215a5a6705b2ec6",
 			"license": "MIT",
